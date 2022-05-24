@@ -2,15 +2,16 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 
-
-export default function Home() {
-  return (
+const Nosotros = () => {
+    return (
     <Layout
-    pagina="Inicio"
+    pagina="Nosotros"
     >
-        <h1>Desde Inicio</h1>
+        <h1>Desde Nosotros</h1>
 
 
     </Layout>
-  )
+)
 }
+
+export default Nosotros
